@@ -17,7 +17,7 @@
     "url": "git+https://github.com/truedev08/nicehash-api.git"
   },
   "dependencies": {
-    "core-js": "^3.8.0",
+    "core-js": "^2.6.12",
     "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
@@ -31,6 +31,7 @@
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.1.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^25.1.0",
