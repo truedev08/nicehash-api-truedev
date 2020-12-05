@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "npx babel src --out-dir lib",
     "generate-docs": "node_modules/.bin/jsdoc --readme ./README.md -c jsdoc.json",
-    "prepare": "npm run generate-docs && npm run compile",
+    "prepare": "npm run compile",
     "test-all": "jest --runInBand",
     "test": "jest api.test.js"
   },
