@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -59,14 +60,11 @@ typings/
 
 # next.js build output
 .next
-lib/*
-.DS_Store
-localStorage/*
 
-#JetBrains
+# JetBrains
 .idea
 
-//MRR api information
+# MiningRigRentals API Key and Secret
 apikey.js
 
-notes.js
+config.js 
