@@ -9,7 +9,7 @@
     "prepare": "npm run generate-docs && npm run compile",
     "test-all": "jest --runInBand",
     "test": "jest api.test.js"
-  },  
+  },
   "author": "truedev",
   "license": "ISC",
   "repository": {
@@ -17,6 +17,7 @@
     "url": "git+https://github.com/truedev08/nicehash-api.git"
   },
   "dependencies": {
+    "core-js": "^3.8.0",
     "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
@@ -38,5 +39,5 @@
   },
   "jest": {
     "testEnvironment": "node"
-}
+  }
 }
