@@ -17,24 +17,23 @@
     "url": "git+https://github.com/truedev08/nicehash-api.git"
   },
   "dependencies": {
-    "core-js": "^3.8.0",
-    "crypto-js": "^4.0.0",
-    "dotenv": "^8.2.0",
+    "core-js": "^2.6.11",
+    "dotenv": "^6.0.0",
+    "lodash": "^4.17.15",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7",
+    "crypto-js": "^3.1.9-1",
     "esm": "^3.2.25",
-    "jest": "^26.6.3",
-    "lodash": "^4.17.20",
-    "qs": "^6.9.4",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6",
-    "request-promise-native": "^1.0.9"
+    "qs": "^6.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
-    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.1.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
     "jsdoc": "^3.6.3",
     "jsdoc-template": "git+https://github.com/oipwg/jsdoc-template.git"
   },
