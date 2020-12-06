@@ -14,7 +14,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/truedev08/nicehash-api.git"
+    "url": "git+https://github.com/truedev08/nicehash-api-truedev.git"
   },
   "dependencies": {
     "core-js": "^2.6.11",
